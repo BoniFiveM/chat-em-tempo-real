@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatBlue</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="login-container" id="loginContainer">
+        <div class="login-form">
+            <h1>Bem Vindos</h1>
+            <input type="text" id="usernameInput" placeholder="Enter your name">
+            <button id="loginButton">Iniciar Chat</button>
+        </div>
+    </div>
+    <div class="chat-container" id="chatContainer" style="display: none;">
+        <aside class="sidebar">
+            <header>
+                <h2>ChatBlue</h2>
+                <div class="search-container">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Seus Amigos">
+                </div>
+            </header>
+            <ul class="contacts-list" id="contactsList">
+            </ul>
+        </aside>
+        <main class="chat-window">
+            <header class="chat-header">
+                <img src="./images/perfil.jpeg" alt="Avatar">
+                <div class="chat-header-info">
+                    <h4 id="chatUsername">User</h4>
+                    <p>Online</p>
+                </div>
+                <button id="videoCallButton" class="video-call-button" title="Start Video Call">
+                    <i class="fas fa-video"></i>
+                </button>
+            </header>
+            <section class="chat-messages">
+            </section>
+            <footer class="message-input">
+                <input type="text" id="messageInput" placeholder="Type a message">
+                <button id="sendMessage"><i class="fas fa-paper-plane"></i></button>
+                <button id="recordAudioButton"><i class="fas fa-microphone"></i></button>
+            </footer>
+        </main>
+        <aside class="call-area" id="callArea" style="display: none;">
+            <header class="call-header">
+                <h2>Video Call</h2>
+                <button id="endCallButton"><i class="fas fa-phone-slash"></i>Desligar call</button>
+            </header>
+            <section class="call-content">
+                <div id="videoContainer">
+                    <video id="localVideo" autoplay muted></video>
+                    <video id="remoteVideo" autoplay></video>
+                </div>
+            </section>
+            <footer class="call-controls">
+                <button id="muteButton"><i class="fas fa-microphone-slash"></i> Mutar</button>
+                <button id="videoButton"><i class="fas fa-video-slash"></i> Ligar Video</button>
+            </footer>
+        </aside>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
