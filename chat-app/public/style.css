@@ -1,4 +1,4 @@
-/* General Reset and Fonts */
+
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
@@ -10,7 +10,7 @@ body {
     align-items: center;
 }
 
-/* Login Container */
+
 .login-container {
     display: flex;
     justify-content: center;
@@ -271,34 +271,34 @@ body {
     gap: 10px;
 }
 
-/* Estilo do balão de mensagem */
+
 .message {
-    max-width: 80%; /* Aumenta a largura máxima dos balões */
+    max-width: 80%; 
     padding: 15px 20px;
-    border-radius: 25px; /* Bordas mais arredondadas para um visual suave */
-    margin-bottom: 15px; /* Aumenta o espaçamento entre mensagens */
+    border-radius: 25px; 
+    margin-bottom: 15px; 
     position: relative;
     font-size: 14px;
     line-height: 1.4;
     display: flex;
     flex-direction: column;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para profundidade */
-    border: 1px solid rgba(0, 0, 0, 0.1); /* Borda leve */
-    word-wrap: break-word; /* Garante que o texto não saia do balão */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border: 1px solid rgba(0, 0, 0, 0.1); 
+    word-wrap: break-word; /
 }
 
 /* Balão de mensagem enviado */
 .message.sent {
     background-color: #a7f497;
     align-self: flex-end;
-    border-top-right-radius: 0; /* Retira o arredondamento no canto superior direito */
+    border-top-right-radius: 0; 
 }
 
-/* Balão de mensagem recebido */
+
 .message.received {
     background-color: #63afca;
     align-self: flex-start;
-    border-top-left-radius: 0; /* Retira o arredondamento no canto superior esquerdo */
+    border-top-left-radius: 0; 
 }
 
 /* Estilo do timestamp */
@@ -306,7 +306,7 @@ body {
     font-size: 12px;
     color: #777;
     position: absolute;
-    bottom: -22px; /* Ajusta a posição para um espaçamento melhor */
+    bottom: -22px; 
     right: 15px;
     white-space: nowrap;
 }
@@ -631,7 +631,7 @@ body {
 
 .call-area {
     display: none;
-    /* Add other styles for the call area */
+    
 }
 
 .call-controls button {
