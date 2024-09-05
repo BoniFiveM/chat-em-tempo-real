@@ -62,9 +62,9 @@ ChatBlue é um aplicativo de chat em tempo real que suporta mensagens de texto. 
 
 Veja o vídeo abaixo para uma demonstração do ChatBlue:
 
-[![Vídeo Demonstrativo](https://img.youtube.com/vi/SEU_CODIGO_DE_VÍDEO/maxresdefault.jpg)](https://cdn.discordapp.com/attachments/1244796885512880299/1281392166865997916/demo.mp4?ex=66db8cf3&is=66da3b73&hm=3e95a8cb9aff45578ee1d30d36e9a999bd9497406a01f87d38ee42491495bf0b)
+https://www.youtube.com/watch?v=azHvsXdF3XI
 
-Clique na imagem para assistir ao vídeo.
+VIDEO HOSPEDADO NO MEU CANALZINHO YOUTUBE ^^
 
 ## Funcionalidade do Servidor
 
