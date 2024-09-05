@@ -1,6 +1,6 @@
 # ChatBlue
 
-ChatBlue é um aplicativo de chat em tempo real que suporta mensagens de texto. Ele utiliza o Socket.IO para comunicação em tempo real.
+ChatBlue é um chat bem simples em tempo real ><
 
 ## Funcionalidades
 
