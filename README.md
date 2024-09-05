@@ -52,11 +52,21 @@ ChatBlue é um aplicativo de chat em tempo real que suporta mensagens de texto. 
 ## Estrutura do Projeto
 
 - **`public/`**: Contém os arquivos estáticos (HTML, CSS, JS).
+  - **`demo.mp4`**: Vídeo demonstrativo do ChatBlue.
   - **`index.html`**: Página principal do chat.
   - **`style.css`**: Estilos para a interface do usuário.
   - **`script.js`**: Código JavaScript para a funcionalidade do chat.
 
 - **`server.js`**: Configuração do servidor Node.js com Express e Socket.IO.
+
+## Vídeo Demonstrativo
+
+Veja o vídeo abaixo para uma demonstração do ChatBlue:
+
+<video width="640" height="360" controls>
+  <source src="public/demo.mp4" type="video/mp4">
+  Seu navegador não suporta a tag de vídeo.
+</video>
 
 ## Funcionalidade do Servidor
 
@@ -82,7 +92,7 @@ Este código está sendo disponibilizado para fins de estudo e aprendizado. Se v
 
 Este projeto é licenciado sob a [MIT License](LICENSE).
 
-
 ## Contato
 
-Para mais informações ou dúvidas, entre em contato comigo no DISCORD: indiozeraa7
+Para mais informações ou dúvidas, entre em contato comigo no discord: indiozeraa7
+
